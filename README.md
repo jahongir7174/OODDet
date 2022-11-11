@@ -4,6 +4,7 @@ This is the source code of 2<sup>nd</sup> place solution for Object Detection tr
 
 * Download [ROBIN](https://github.com/eccv22-ood-workshop/ROBIN-dataset) dataset
 * Convert annotation from `csv` format to `coco` using [CSV2COCO](https://github.com/jahongir7174/ROBIN) converter
+* Install [mmdet](https://github.com/open-mmlab/mmdetection/blob/master/docs/en/get_started.md/) toolbox
 * Run `bash ./main.sh ./nets/exp01.py $ --train` for training
 
 #### Dataset structure
